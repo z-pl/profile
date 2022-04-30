@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  color: yellow;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+}
+
+p {
+  font-size: small;
+  color: #fff;
+  font-weight:lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+li {
+  color: blue;
+}
+
+.name-tag {
+  color: yellow;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+ ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  border: 2px solid yellow;
+  margin-top: 4em;
+  padding: 20px;
+}
+
+.google-btn{
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+}
+
+.google-btn:hover {
+  background-color: orange;
+  border: 1px solid black;
+
+}
+.google-link {
+  color: white;
+}
+
+.google-link:hover {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
